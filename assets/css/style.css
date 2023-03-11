@@ -1,0 +1,138 @@
+.container{
+
+
+
+}
+.navbar{
+display: flex;
+width: 100%;
+justify-content: space-around;
+position: sticky;
+background-color: rgb(248, 232, 244);
+}
+.logo{
+    /* margin-left: 200px; */
+    margin-top: 40px;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.menu ul li{
+margin: 20px 50px;
+}
+.menu ul li a{
+text-decoration: none;
+font-size: 21px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: black;
+}
+.button button{
+    margin-top: 30px;
+    padding: 10px;
+    background:linear-gradient(to right, rgb(255, 153, 0),rgb(255, 217, 0));
+    border-radius: 15px;
+    width: 120px;
+    font-size: 21px;
+    border: none;
+    color: white;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(248, 232, 244);
+}
+.one{
+width: 40%;
+text-align: right;
+position: relative;
+}
+.one img{
+    width: 80%;
+    
+}
+.two{
+width: 40%;
+padding-top: 150px;
+}
+.two button{
+    margin-top: 30px;
+    padding: 10px;
+    background:linear-gradient(to right, rgb(255, 153, 0),rgb(255, 217, 0));
+    border-radius: 15px;
+    width: 200px;
+    font-size: 21px;
+    border: none;
+    color: white;
+}
+.head2{
+    font-size: 45px;
+    text-decoration: none !important;
+    color:rgb(255, 153, 0);
+}
+.box{
+width: 100%;
+display: flex;
+}
+.d1{
+width: 50%;
+margin-top: 100px;
+}
+.d1 img{
+    width: 50%;
+}
+.aboutus{
+    width: 50%;
+
+}
+.icon-1{
+    
+    width: 180px;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    background:linear-gradient(to right, rgb(255, 38, 0),rgb(231, 127, 217));
+color: white;
+margin-top: 80px;
+margin-right: 100px;
+}
+.icon-2{
+    width: 180px;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    background:linear-gradient(to right, rgb(255, 38, 0),rgb(231, 127, 217));
+color: white;
+margin-top: 80px;
+margin-right: 1000px;
+}
+.icon-3{
+    width: 180px;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    background:linear-gradient(to right, rgb(255, 38, 0),rgb(231, 127, 217));
+color: white;
+margin-top: 400px;
+margin-right: 1000px;
+height: 50px;
+}
+/* .icon-3 img{
+    height: 100%;
+    width: 100%;
+} */
+.aboutusbutton{
+    margin-top: 30px;
+    padding: 10px;
+    background:linear-gradient(to right, rgb(255, 153, 0),rgb(255, 217, 0));
+    border-radius: 15px;
+    width: 200px;
+    font-size: 21px;
+    border: none;
+    color: white;
+}
