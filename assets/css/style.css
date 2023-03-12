@@ -1,191 +1,199 @@
-.container{
-
-
-
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-.navbar{
-display: flex;
-width: 100%;
-justify-content: space-around;
-position: sticky;
-background-color: rgb(248, 232, 244);
+.container {
+  width: 100%;
 }
-.logo{
-    /* margin-left: 200px; */
-    margin-top: 40px;
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: sticky;
+  background-color: rgb(248, 232, 244);
 }
-.menu ul{
-    display: flex;
-    list-style-type: none;
-    
+.logo {
+  /* margin-left: 200px; */
+  margin-top: 40px;
 }
-.menu ul li{
-margin: 20px 50px;
+.menu ul {
+  display: flex;
+  list-style-type: none;
 }
-.menu ul li a{
-text-decoration: none;
-font-size: 21px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color: black;
+#ball {
+  position: absolute;
+  top: 127px;
+  right: 74px;
 }
-.button button{
-    margin-top: 30px;
-    padding: 10px;
-    background:linear-gradient(to right, rgb(255, 153, 0),rgb(255, 217, 0));
-    border-radius: 15px;
-    width: 120px;
-    font-size: 21px;
-    border: none;
-    color: white;
+#cup {
+  position: absolute;
+  bottom: 50px;
+  right: 80px;
 }
-.header{
-    display: flex;
-    width: 100%;
-    position: relative;
-    justify-content: center;
-    background-color: rgb(248, 232, 244);
+.new {
+  display: flex;
+  width: 100%;
+  /* position: relative; */
+  justify-content: center;
 }
-.one{
-width: 40%;
-text-align: right;
-position: relative;
-/* position: absolute;
+.menu ul li {
+  margin: 20px 50px;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 21px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+}
+.button button {
+  margin-top: 30px;
+  padding: 10px;
+  background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 217, 0));
+  border-radius: 15px;
+  width: 120px;
+  font-size: 21px;
+  border: none;
+  color: white;
+}
+.header {
+  /* display: flex; */
+  width: 100%;
+  position: relative;
+  /* justify-content: center; */
+  background-color: rgb(248, 232, 244);
+}
+.one {
+  width: 40%;
+  text-align: right;
+  position: relative;
+  /* position: absolute;
 bottom: 0%;
 left: 100px; */
 }
-.one img{
-    width: 80%;
-
+.one img {
+  width: 80%;
 }
-.two{
-    text-align: center;
-width: 40%;
-margin-top: 150px;
-/* position: relative */
+.two {
+  text-align: center;
+  width: 40%;
+  margin-top: 150px;
+  /* position: relative */
 }
-.1png{
-
-
+.two h3 {
+  margin-bottom: -10px;
 }
-.3png{
-/* margin-top:505px; */
+.two button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 217, 0));
+  border-radius: 15px;
+  width: 200px;
+  font-size: 21px;
+  border: none;
+  color: white;
 }
-.two h3{
-    margin-bottom: -10px;
+.head2 {
+  margin-top: 20px;
+  font-size: 45px;
+  text-decoration: none !important;
+  color: rgb(255, 153, 0);
 }
-.two button{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background:linear-gradient(to right, rgb(255, 153, 0),rgb(255, 217, 0));
-    border-radius: 15px;
-    width: 200px;
-    font-size: 21px;
-    border: none;
-    color: white;
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.head2{
-    margin-top:20px ;
-    font-size: 45px;
-    text-decoration: none !important;
-    color:rgb(255, 153, 0);
+.d1 {
+  width: 40%;
+  margin-top: 100px;
 }
-.box{
-width: 100%;
-display: flex;
-justify-content: center;
+.d1 img {
+  width: 80%;
 }
-.d1{
-width: 40%;
-margin-top: 100px;
+.aboutus {
+  width: 40%;
+  margin-top: 90px;
 }
-.d1 img{
-    width: 80%;
-}
-.aboutus{
-    width: 40%;
-margin-top: 90px;
-}
-.icon-1{
-    
-    width: 180px;
-    padding: 5px;
-    border-radius: 10px;
-    position: absolute;
-    display: flex;
-    background:linear-gradient(to right, rgb(255, 38, 0),rgb(231, 127, 217));
-color: white;
-margin-top: 80px;
-margin-right: 100px;
+.icon-1 {
+  width: 180px;
+  padding: 11px;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  background: linear-gradient(to right, rgb(255, 38, 0), rgb(231, 127, 217));
+  color: white;
+  top: 100px;
+  left: 800px;
 }
 /* .icon-2 img{
     margin-bottom: 50px;
 } */
-.icon-2{
-    width: 180px;
-    padding: 5px;
-    border-radius: 10px;
-    position: absolute;
-    display: flex;
-    background:linear-gradient(to right, rgb(255, 38, 0),rgb(231, 127, 217));
-color: white;
-margin-top: 80px;
-margin-right: 1000px;
+.icon-2 {
+  width: 180px;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  display: flex;
+  background: linear-gradient(to right, rgb(255, 38, 0), rgb(231, 127, 217));
+  color: white;
 }
-.icon-3{
-    width: 180px;
-    padding: 5px;
-    border-radius: 10px;
-    position: absolute;
-    display: flex;
-    background:linear-gradient(to right, rgb(255, 38, 0),rgb(231, 127, 217));
-color: white;
-margin-top: 400px;
-margin-right: 1000px;
-height: 50px;
+.icon-3 {
+  width: 180px;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  background: linear-gradient(to right, rgb(255, 38, 0), rgb(231, 127, 217));
+  color: white;
+  height: 63px;
+  bottom: 80px;
+  left: 400px;
 }
 /* .icon-3 img{
     height: 100%;
     width: 100%;
 } */
-.aboutusbutton{
-    margin-top: 30px;
-    margin-top: 10px;
-    padding: 10px;
-    background:linear-gradient(to right, rgb(255, 153, 0),rgb(255, 217, 0));
-    border-radius: 15px;
-    width: 200px;
-    font-size: 21px;
-    border: none;
-    color: white;
-    transition:  2s ease-in-out;
+.aboutusbutton {
+  margin-top: 30px;
+  margin-top: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 217, 0));
+  border-radius: 15px;
+  width: 200px;
+  font-size: 21px;
+  border: none;
+  color: white;
+  transition: 2s ease-in-out;
 }
-.aboutusbutton:hover{
-    background:linear-gradient(to right, rgb(255, 217, 0),rgb(255, 153, 0));
-
+.aboutusbutton:hover {
+  background: linear-gradient(to right, rgb(255, 217, 0), rgb(255, 153, 0));
 }
-.head3{
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    margin-top: -30px;
-    /* color:linear-gradient(to right, rgb(255, 153, 0),rgb(255, 217, 0)); */
-    background: linear-gradient(to right, rgba(255, 153, 0, 0.897),rgb(255, 217, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
+.head3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  margin-top: -30px;
+  /* color:linear-gradient(to right, rgb(255, 153, 0),rgb(255, 217, 0)); */
+  background: linear-gradient(
+    to right,
+    rgba(255, 153, 0, 0.897),
+    rgb(255, 217, 0)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.aboutus h1{
-     font-size: 50px; 
-     color: orange;
-
+.aboutus h1 {
+  font-size: 50px;
+  color: orange;
 }
-.aboutus h2{
-    font-size: 30px;
-    margin-top: -20px;
+.aboutus h2 {
+  font-size: 30px;
+  margin-top: -20px;
 }
-.aboutus p{
-    font-size: 25px;
-    line-height: 30px;
-    
+.aboutus p {
+  font-size: 25px;
+  line-height: 30px;
 }
